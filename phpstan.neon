@@ -1,0 +1,8 @@
+parameters:
+    level: max
+    paths:
+        - app
+        - tests
+    ignoreErrors:
+        - '#Property (.*)::$(.*[Ii]nvalid) has unknown typehint type (.*)#'
+
