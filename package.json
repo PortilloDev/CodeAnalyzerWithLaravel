@@ -1,15 +1,9 @@
 {
     "private": true,
     "type": "module",
-    "husky": {
-        "hooks": {
-            "pre-commit": "npm run precommit"
-        }
-    },
     "scripts": {
         "dev": "vite",
-        "build": "vite build",
-        "precommit": "php-cs-fixer fix --config=.php_cs"
+        "build": "vite build"
     },
     "devDependencies": {
         "axios": "^1.1.2",
