@@ -6,15 +6,11 @@ use PHPUnit\Framework\TestCase;
 
 class ExampleTest extends TestCase
 {
-    /**
-     * A basic test example.
-     */
-    public function test_that_true_is_true(): void
-    {
-        $this->assertTrue(true);
-    }
-    public function test_that_false_is_false(): void
-    {
-        $this->assertTrue(!false);
-    }
+  /**
+   * A basic test example.
+   */
+  public function testThatTrueIsTrue(): void
+  {
+    $this->assertTrue(true);
+  }
 }

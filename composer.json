@@ -50,9 +50,7 @@
         ],
         "php-stan": "vendor/bin/phpstan analyse app tests --level=4",
         "php-fixer": "vendor/bin/php-cs-fixer fix --config .php-cs-fixer.php",
-        "tests": [
-            "bin/phpunit"
-        ]
+        "tests": "vendor/bin/phpunit"
     },
     "extra": {
         "laravel": {
